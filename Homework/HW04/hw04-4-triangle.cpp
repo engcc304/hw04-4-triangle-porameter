@@ -13,3 +13,19 @@
     Output:
         Triagle Area : 7.5
 */
+
+#include <stdio.h>//The user must enter the height and base of the triangle as decimal numbers. 
+//space between values Then the program will calculate the area of ​​the triangle and display the results on the screen. import data example
+
+int main() {
+    float height, base ;
+
+    printf( "Enter H & W :\n") ;
+    scanf( "%f %f", &height, &base) ;
+
+    float area = (height * base) / 2.0 ;
+
+    printf( "Triangle Area : %.1f\n", area) ; //Displays numbers and only one decimal place.
+
+    return 0;
+}//end fuction
