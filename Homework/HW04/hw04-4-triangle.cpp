@@ -27,5 +27,6 @@ int main() {
 
     printf( "Triangle Area : %.1f\n", area) ; //Displays numbers and only one decimal place.
 
-    return 0;
+    return 0 ;
+    
 }//end fuction
